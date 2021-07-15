@@ -1,5 +1,3 @@
-# Multi-Compound Transformer for Accurate Biomedical Image Segmentation
-
 <div align="center">
   <img src="imgs/logo.png" width="550"/>
 </div>
