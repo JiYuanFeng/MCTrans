@@ -9,7 +9,7 @@
 
 - This repository provides code for "**Multi-Compound Transformer for Accurate Biomedical Image Segmentation**" [[paper](https://arxiv.org/pdf/2106.14385.pdf)].
 
-- The MCTrans repository was heavily referenced, using packages of [MMSegmentation](https://github.com/open-mmlab/mmsegmentation), [MMCV](https://github.com/open-mmlab/mmcv), and [MONAI](https://monai.io/). We thank them for their selfless contributions
+- The MCTrans repository heavily references and uses the packages of [MMSegmentation](https://github.com/open-mmlab/mmsegmentation), [MMCV](https://github.com/open-mmlab/mmcv), and [MONAI](https://monai.io/). We thank them for their selfless contributions
 
   
 
