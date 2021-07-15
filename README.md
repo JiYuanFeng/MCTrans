@@ -25,9 +25,6 @@
 
 ## Changelog
 
-V0.0.1 was released in 07/15/21.
-
-
 
 ## Model Zoo
 
@@ -68,7 +65,7 @@ If you find this project useful in your research, please consider cite:
 
 ## Contribution
 
-I don't have a lot of time to improve the code base at this stage, so if you have some free time and are interested in contributing to the standardization of the medical image analysis community, please feel free to contact me [[email]](jyuanfeng8@gmail.com).
+I don't have a lot of time to improve the code base at this stage, so if you have some free time and are interested in contributing to the standardization of the medical image analysis community, please feel free to contact me (jyuanfeng8@gmail.com).
 
 
 
