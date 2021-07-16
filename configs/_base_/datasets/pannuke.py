@@ -44,22 +44,48 @@ data = dict(
     workers_per_gpu=8,
     train=dict(
         type=dataset_type,
-        img_dirs=["data/medical/pannuke/split-images/0",
-                  "data/medical/pannuke/split-images/1"],
-        img_suffix=".png",
-        label_dirs=["data/medical/pannuke/split-masks/0",
-                    "data/medical/pannuke/split-masks/1"],
-        label_suffix=".png",
+        img_dirs=["data/medical/pannuke/split-images-npy/0",
+                  "data/medical/pannuke/split-images-npy/1"],
+        img_suffix=".npy",
+        label_dirs=["data/medical/pannuke/split-masks-npy/0",
+                    "data/medical/pannuke/split-masks-npy/1"],
+        label_suffix=".npy",
         phase="train",
         transforms=train_transforms,
     ),
     val=dict(
         type=dataset_type,
-        img_dirs=["data/medical/pannuke/split-images/2"],
-        img_suffix=".png",
-        label_dirs=["data/medical/pannuke/split-masks/2"],
-        label_suffix=".png",
+        img_dirs=["data/medical/pannuke/split-images-npy/2"],
+        img_suffix=".npy",
+        label_dirs=["data/medical/pannuke/split-masks-npy/2"],
+        label_suffix=".npy",
         phase="val",
         transforms=test_transforms
     ),
 )
+#support data with different formats
+#
+# data = dict(
+#     samples_per_gpu=32,
+#     workers_per_gpu=8,
+#     train=dict(
+#         type=dataset_type,
+#         img_dirs=["data/medical/pannuke/split-images/0",
+#                   "data/medical/pannuke/split-images/1"],
+#         img_suffix=".png",
+#         label_dirs=["data/medical/pannuke/split-masks/0",
+#                     "data/medical/pannuke/split-masks/1"],
+#         label_suffix=".png",
+#         phase="train",
+#         transforms=train_transforms,
+#     ),
+#     val=dict(
+#         type=dataset_type,
+#         img_dirs=["data/medical/pannuke/split-images/2"],
+#         img_suffix=".png",
+#         label_dirs=["data/medical/pannuke/split-masks/2"],
+#         label_suffix=".png",
+#         phase="val",
+#         transforms=test_transforms
+#     ),
+# )

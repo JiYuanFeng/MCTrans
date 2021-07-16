@@ -39,17 +39,19 @@ ln -s $DATA_ROOT data
   ├── mctrans
   ├── data
   │   ├── pannuke
-  │   │   ├── Images
-  │   │   ├── Lables
+  │   │   ├── split-images
+  │   │   ├── split-labels
+  │   │   ├── split-images-npy
+  │   │   ├── split-labels-npy
   │   ├── cvc-clinic
   │   │   ├── Images
-  │   │   ├── Lables
+  │   │   ├── Labels
   │   ├── cvc-colondb
   │   │   ├── Images
-  │   │   ├── Lables
+  │   │   ├── Labels
   │   ├── kvasir
   │   │   ├── Images
-  │   │   ├── Lables
+  │   │   ├── Labels
   ```
 
 ## Single GPU Training
