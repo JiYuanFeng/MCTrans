@@ -5,6 +5,7 @@
 
 ## News
 
+
 ## Introduction 
 
 - This repository provides code for "**Multi-Compound Transformer for Accurate Biomedical Image Segmentation**" [[paper](https://arxiv.org/pdf/2106.14385.pdf)].
@@ -17,12 +18,12 @@
 
 - A comprehensive toolbox for medical image segmentation, including flexible data loading, processing, modular network construction, and more.
 
-- Supports representative and popular medical image segmentation methods, e.g. UNet, UNet++, CENet++, AttentionUNet, etc. 
+- Supports representative and popular medical image segmentation methods, e.g. UNet, UNet++, CENet, AttentionUNet, etc. 
 
   
 
 ## Changelog
-
+The first version was released on 2021.7.16.
 
 ## Model Zoo
 

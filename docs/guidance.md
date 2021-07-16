@@ -32,7 +32,7 @@ ln -s $DATA_ROOT data
 
 - If your folder structure is different, you may need to change the corresponding paths in config files.
 
-- We have upload some preprocessed datasets at [drive](), you can download and unpack them under the data folder.
+- We have upload some preprocessed datasets at [drive](https://drive.google.com/file/d/1mcD7Grx2bUQhAL9ClTrCtKv6FyX03Ehd/view?usp=sharing), you can download and unpack them under the data folder.
 
   ```none
   MCTrans
