@@ -40,18 +40,18 @@ ln -s $DATA_ROOT data
   ├── data
   │   ├── pannuke
   │   │   ├── split-images
-  │   │   ├── split-labels
+  │   │   ├── split-masks
   │   │   ├── split-images-npy
-  │   │   ├── split-labels-npy
+  │   │   ├── split-masks-npy
   │   ├── cvc-clinic
-  │   │   ├── Images
-  │   │   ├── Labels
+  │   │   ├── images
+  │   │   ├── masks
   │   ├── cvc-colondb
-  │   │   ├── Images
-  │   │   ├── Labels
+  │   │   ├── images
+  │   │   ├── masks
   │   ├── kvasir
-  │   │   ├── Images
-  │   │   ├── Labels
+  │   │   ├── images
+  │   │   ├── masks
   ```
 
 ## Single GPU Training
