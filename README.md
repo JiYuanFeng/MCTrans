@@ -4,7 +4,7 @@
 
 
 ## News
-
+The code of MCTrans has been released. if you are interested in contributing to the standardization of the medical image analysis community, please feel free to contact me.
 
 ## Introduction 
 
