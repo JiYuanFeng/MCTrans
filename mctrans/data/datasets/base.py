@@ -70,14 +70,17 @@ class BaseDataset(Dataset):
                            img_key="img",
                            label_key="seg_label"):
 
+        if label_dirs is not None:
+            assert len(img_dirs) == len(label_dirs)
+
         data_list = []
-        for img_dir, label_dir in zip(img_dirs, label_dirs):
+        for idx, img_dir in enumerate(img_dirs):
             for img in mmcv.scandir(img_dir, img_suffix, recursive=True):
                 data_info = {}
                 data_info[img_key] = osp.join(img_dir, img)
-                if label_dir is not None:
+                if label_dirs is not None:
                     label = img.replace(img_suffix, label_suffix)
-                    data_info[label_key] = osp.join(label_dir, label)
+                    data_info[label_key] = osp.join(label_dirs[idx], label)
                 data_list.append(data_info)
 
         if cross_valid:
