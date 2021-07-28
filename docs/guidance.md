@@ -8,6 +8,7 @@ conda activate mctrans
 git clone https://github.com/JiYuanFeng/MCTrans.git
 cd MCTrans
 python setup.py develop
+pip install -r requirements.txt
 ```
 
 a. Complie other CUDA operators such as [MultiScaleDeformableAttention](https://github.com/fundamentalvision/Deformable-DETR).
